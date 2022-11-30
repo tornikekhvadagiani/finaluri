@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* section 1 */
+.slideshow-container,
+img {
+  width: 100%;
+}
+
+.slideshow-container {
+    width: 100%;
+
+}
+.aboveImage{
+    position: absolute; 
+    width: 99%;
+}
+.Roca{
+    margin-left: 3%;
+    margin-top: 3%;
+    font-size: 56px;
+}
+.resume{
+    color: #B3B3B3;
+    font-size: 13px;
+}
+
+.abaut{
+    font-size: 43.17px;
+    margin-left: 84%;
+    color: #373737;
+    
+
+}
+.number{
+    font-size: 158.3px;
+    margin-left: 85%;
+    margin-top: -8%;
+    
+    color: #1C1C1C;
+}
+ .info{
+    margin-left: 55%;
+    margin-top: 10%;
+    font-size: 49.7px;
+ }
+
+.position{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    width: 5%;
+}
+
+.slideshow-container,
+img {
+  width: 100%;
+}
+
+.slideshow-container {
+    width: 100%;
+
+}
+.percent{
+    color: #E93656;
+    font-size: 20px;
+}
+
+.Satisfied{
+    color: #030303;
+    font-size: 20px;
+}
+.Clients{
+    display: flex;
+    margin-left: 80%;
+    margin-top: 10%;
+}
+.line{
+    border: solid;
+    color:#E93656 ;
+    width: 13%;
+    background-color: #E93656;
+    margin-left: 80%;
+}
+/* section 2 */
+
+.name{
+    font-size: 40px;
+    color: #222222;
+}
+.DESIGNER{
+    font-size: 14px;
+    color: #DAAE19;
+}
+.abautMe{
+    font-size: 15px;
+    color: #555555;
+}
+.Additionalიnformation{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+}
+.hire{
+    font-size: 15px;
+    border: solid;
+    border-color:#E93656;
+    background-color: #E93656;
+    width: 70px;
+}
+.meImage{
+    width: 30%;
+}
+
+.design{
+    font-size: 20px;
+    color: #555555;
+}
+.position2{
+    display: flex;
+}
+.lineDesign{
+    border: solid;
+    background-color: #F0F0F0;
+    color: #fa101c;
+}
+.progressBar{
+    display: flex;
+}
+
+.section2Position{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
