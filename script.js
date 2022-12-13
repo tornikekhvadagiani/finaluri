@@ -2,6 +2,40 @@ showSlides();
 initRecommendationSlider();
 initFilterProjects();
 
+const sendBtn = document.getElementById("sendMessage");
+const closeBtn = document.getElementById('close');
+
+sendBtn.addEventListener("click", () => {
+  sendMessage();
+});
+
+closeBtn.addEventListener("click", () => {
+  document.querySelector('.modal').style.display = 'none'
+});
+
+
+
+function sendMessage() {
+
+  let xhr = new XMLHttpRequest();
+  xhr.open("POST", "https://borjomi.loremipsum.ge/api/send-message", true);
+  xhr.setRequestHeader("Content-type", "application/json");
+  xhr.onload = function () {
+    // do something to response
+    const result = JSON.parse(this.responseText);
+
+    if(result.status === 1) {
+      document.querySelector('.modal').style.display = 'block'
+    }
+  };
+  xhr.send(JSON.stringify({
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    website: document.getElementById('url').value,
+    message: document.getElementById('message').value
+  }));
+}
+
 function showSlides() {
   let slideIndex = 0;
   let i;
