@@ -7,10 +7,9 @@
     <title>ფინალური</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/font.css/" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./style/font.css" />
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     <!-- section1 -->
@@ -31,7 +30,7 @@
             <p>I am front-end developer</p>
           </div>
           <div class="icon">
-            <a href=""><img src="image/facebook.png" alt="facebook_icon" /></a>
+            <a href="https://www.facebook.com/profile.php?id=100008974747561" target="_blank"><img src="image/facebook.png" alt="facebook_icon" /></a>
             <a href=""><img src="image/twitter.png" alt="twitter_icon " /></a>
             <a href=""> <img src="image/google+.png" alt="google_icon" /></a>
             <a href=""> <img src="image/youtube.png" alt="youtube_icon" /></a>
@@ -91,7 +90,8 @@
         </div>
       </div>
       <div icon class="icon-transition">
-        <a href=""><img src="image/facebook.png" alt="facebook_icon" /></a>
+        <a href="https://www.facebook.com/profile.php?id=100008974747561" target="_blank"><img src="image/facebook.png" alt="facebook_icon" /></a>
+
         <a href=""><img src="image/twitter.png" alt="twitter_icon " /></a>
         <a href=""> <img src="image/google+.png" alt="google_icon" /></a>
         <a href=""> <img src="image/youtube.png" alt="youtube_icon" /></a>
@@ -237,7 +237,12 @@
     <!-- section 4 -->
 
     <section class="recommendation-section">
-      <img class="cover" src="image/clip.jpg" alt="" />
+      <div class="buttonsPosition">
+        <div class="buttons" data-index="0"></div>
+        <div class="buttons" data-index="1"></div>
+        <div class="buttons" data-index="2"></div>
+      </div>
+
       <div class="recommendation-position">
         <p class="recommendation-text">
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
@@ -248,15 +253,11 @@
         <div>
           <img class="quote" src="image/quote.svg" alt="" />
           <p class="profession">Graphic Designer</p>
-          <h3 class="name">Alisa Bailey</h3>
-        </div>
-        <div class="buttonsPosition">
-          <div class="buttons"></div>
-          <div class="buttons"></div>
-          <div class="buttons"></div>
+          <h3 class="name">Jenifer Suares</h3>
         </div>
       </div>
-      <!-- <div class="recommendation-position">
+
+      <div class="recommendation-position">
         <p class="recommendation-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Consectetur, mollitia. Architecto unde sequi tempora itaque
@@ -267,12 +268,9 @@
           <img class="quote" src="image/quote.svg" alt="" />
           <p class="profession">front-end development</p>
           <h3 class="name">Alisa Bailey</h3></div>
-          <div class="buttonsPosition">
-          <div class="buttons"></div>
-          <div class="buttons"></div>
-          <div class="buttons"></div>
-        </div>
+       
       </div>
+
       <div class="recommendation-position">
         <p class="recommendation-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur 
@@ -283,13 +281,8 @@
         <div>
           <img class="quote" src="image/quote.svg" alt="" />
           <p class="profession">Graphic Designer</p>
-          <h3 class="name">Alisa Bailey</h3></div>
-          <div class="buttonsPosition">
-          <div class="buttons"></div>
-          <div class="buttons"></div>
-          <div class="buttons"></div>
-        </div>
-      </div> -->
+          <h3 class="name">John Doe</h3></div>
+      </div>
     </section>
 
     <!-- section 5 -->
@@ -299,18 +292,18 @@
         <div class="navigation-backround">
           <nav>
             <ul class="bar">
-              <li class="bar-li" id="All">All</li>
-              <li class="bar-li" id="workid">Work ideas</li>
-              <li class="bar-li" id="mockupid">Mockup</li>
-              <li class="bar-li" id="psdid">PSD design</li>
-              <li class="bar-li" id="logoid">Logo</li>
-              <li class="bar-li" id="presentid">Presentation</li>
-              <li class="bar-li" id="iconid">Icons</li>
+              <li class="bar-li" data-name="all">All</li>
+              <li class="bar-li" data-name="work">Work ideas</li>
+              <li class="bar-li" data-name="mockup">Mockup</li>
+              <li class="bar-li" data-name="design">PSD design</li>
+              <li class="bar-li" data-name="logo">Logo</li>
+              <li class="bar-li" data-name="presentation">Presentation</li>
+              <li class="bar-li" data-name="icon">Icons</li>
             </ul>
           </nav>
         </div>
         <div class="projects">
-          <div class="project">
+          <div class="project" data-name="work">
             <div class="front-project" id="workid-img">
               <img class="project-img" src="image/work-ideas.png" />
             </div>
@@ -322,7 +315,7 @@
               </div>
             </div>
           </div>
-          <div class="project">
+          <div class="project" data-name="mockup">
             <div class="front-project" id="mockupid-img">
               <img class="project-img" src="image/mockup.png" alt="#" />
             </div>
@@ -334,7 +327,7 @@
               </div>
             </div>
           </div>
-          <div class="project">
+          <div class="project" data-name="design">
             <div class="front-project" id="psdid-img">
               <img class="project-img" src="image/psd-desing.jpg" alt="#" />
             </div>
@@ -346,7 +339,7 @@
               </div>
             </div>
           </div>
-          <div class="project">
+          <div class="project" data-name="logo">
             <div class="front-project" id="logoid-img">
               <img class="project-img" src="image/logo.jpg" alt="#" />
             </div>
@@ -358,7 +351,7 @@
               </div>
             </div>
           </div>
-          <div class="project">
+          <div class="project" data-name="presentation">
             <div class="front-project" id="presentid-img">
               <img class="project-img" src="image/Presentation.png" alt="#" />
             </div>
@@ -370,7 +363,7 @@
               </div>
             </div>
           </div>
-          <div class="project">
+          <div class="project" data-name="icon">
             <div class="front-project" id="iconid-img">
               <img class="project-img" src="image/stickers.png" alt="#" />
             </div>
@@ -527,15 +520,15 @@
 
   <!-- section 7 -->
 
-  <section class="form-section">
-    <div class="form-back">   
-      <div class="form-layer">
-         <div class="form-div">
+  <section class="contact-section">
+    <div class="contact-back">   
+      <div class="contact-layer">
+         <div class="contact-div">
             <h4>CONTACT US</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
           </div>
-          <form class="reg" id="reg-form" method="post" action="#">
-            <div class="reg-div">
+          <form class="registration" id="reg-form" method="#" action="#">
+            <div class="registration-div">
                <div class="input-div">
                   <input class="user" type="text" id="name" placeholder="Your Name" required>
                </div>
@@ -551,7 +544,7 @@
               
             </div>
             <div class="form-button">
-               <button type="submit" class="reg-btn" id="submit">SEND MESSAGE</button>
+               <button type="submit" class="registration-btn" id="submit">SEND MESSAGE</button>
             </div>
            
             </form>
@@ -566,7 +559,7 @@
     </div>    
   </section>
   <footer>
-   <div class="footer-div">
+   <div class="footer">
        <div class="footer-title">
          <h3>Roca<span class="footer-span">.</span></h3>
          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit 
@@ -581,14 +574,11 @@
          <a href="#" class="fa fa-instagram"></a>
        </div>
    </div>
-   <div class="footer">
+   <div class="all-right">
       <p>© All right reserved 2019. <em>Rosa</em>  - Creative Agency Website PSD Template.</p>
    </div>
   </footer>
 </main>
-  
-
-
 
     <script src="script.js"></script>
   </body>

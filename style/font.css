@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "GlacialIndifference-Bold";
+  src: url("../assets/fonts/GlacialIndifference-Bold.woff") format("woff"),
+    url("../assets/fonts/GlacialIndifference-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../assets/fonts/Roboto-Light.woff") format("woff"),
+    url("../assets/fonts/Roboto-Light.ttf") format("ttf");
+}
+
+
+@font-face {
+  font-family: "Muli-Regular";
+  src: url("../assets/fonts/Muli-Regular.woff") format("woff"),
+    url("../assets/fonts/Muli-Regular.ttf") format("ttf");
+}

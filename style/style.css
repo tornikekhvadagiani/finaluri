@@ -24,6 +24,9 @@
   margin-top: 3%;
   font-size: 56px;
 }
+.info-me {
+    font-family: "GlacialIndifference-Bold";
+}
 .resume {
   color: #b3b3b3;
   font-size: 13px;
@@ -44,7 +47,6 @@
   margin-left: 55%;
   margin-top: 10%;
   font-size: 49.7px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .position {
@@ -266,24 +268,30 @@
   height: 13px;
   border: solid 2px #ffffff;
   margin-top: 8px;
+  cursor: pointer;
 }
 
 .buttons:hover{
-    color: #e93656;
+    border-color: #e93656;
 }
+
+.buttons.active {
+    background-color: #e93656;
+}
+
 .recommendation-position {
-  display: flex;
-  position: relative;
-  justify-content: space-evenly;
-  align-items: center;
-  color: #fafafa;
-  margin-top: 15%;
-  padding-top: 10%;
+    display: none;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    color: #fafafa;
+    width: 70%;
 }
 
 .recommendation-text {
   font-size: 15px;
   width: 30%;
+  font-family: "Roboto-Light";
 }
 .recommendationImg {
   border: dotted 2px white;
@@ -328,6 +336,7 @@
 }
 .project {
   position: relative;
+  display: none;
 }
 .project:hover .project-background {
   display: flex;
@@ -459,7 +468,6 @@
 .rosa-p{
     font-size: 13px;
     color: #626262;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
@@ -501,8 +509,8 @@
 
 
 
-.form-back{
-    margin-top:75px; 
+.contact-back{
+    margin-top:70px; 
     background-image: url('../image/map.jpg');
     position:relative;
     height:660px;
@@ -529,7 +537,7 @@
     align-items: center;
 }
 
- .form-layer{
+ .contact-layer{
     position:absolute;
     left:0;
     top:0;
@@ -567,7 +575,7 @@
     margin-bottom:15px;
     outline:none;
 }
-.reg-div{
+.registration-div{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -581,7 +589,7 @@
    
    
 }
-.footer-div{
+.footer{
     background-color:#282828;
     display:flex;
     flex-direction: column;
@@ -604,7 +612,26 @@
     color:aqua;
 }
 
-.footer{
+.all-right{
     background-color:#171717;
     
+}
+
+.recommendation-section {
+    height: 570px;
+    background-image: url('../image/clip.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:160px;
+}
+
+.buttonsPosition {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 80px;
 }
