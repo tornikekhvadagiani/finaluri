@@ -6,14 +6,7 @@
   list-style: none;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-}
 
-.header-right {
-    position: relative;
-}
 
 /* section 1 */
 .mySlides {
@@ -23,6 +16,15 @@
     color: #0081FF;
 
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right {
+    position: relative;
+}
+
 .slideshow-container {
   width: 100%;
 }
@@ -77,11 +79,15 @@
 .percent {
   color: #e93656;
   font-size: 20px;
+  margin-top: -49%;
+
 }
 
 .Satisfied {
   color: #030303;
   font-size: 20px;
+  margin-top: -49%;
+
 }
 .Clients {
   display: flex;
@@ -94,6 +100,7 @@
   width: 13%;
   background-color: #e93656;
   margin-left: 80%;
+  margin-top: -7%;
 }
 /* section 2 */
 
@@ -271,6 +278,8 @@
 }
 
 
+
+/* section 4 */
 .recommendation-section {
     height: 570px;
     background-image: url('../image/clip.jpg');
@@ -289,8 +298,6 @@
     transform: translateY(-50%);
     right: 80px;
 }
-
-/* section 4 */
 
 .cover {
   width: 100%;
@@ -713,6 +720,22 @@
 }
 
 
-/* .section5ddysplay {
-    flex-direction: column;
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

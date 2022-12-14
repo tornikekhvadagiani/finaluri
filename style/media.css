@@ -1,0 +1,303 @@
+/* .section5ddysplay {
+    flex-direction: column;
+} */
+
+@media (max-width:1024px){
+    *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+    }
+/* section 1 */
+  .Roca {
+    margin-left: 3%;
+    margin-top: 3%;
+    font-size: 10px;
+  }
+  .info-me {
+      font-family: "GlacialIndifference-Bold";
+  }
+  .resume {
+    color: #b3b3b3;
+    font-size: 10px;
+  }
+  
+  .abaut {
+      display: none;
+  }
+  .number {
+    display: none;
+  }
+  .info {
+    margin-left: 55%;
+    margin-top: 10%;
+    font-size: 10px;
+  }
+  
+ 
+  .icon {
+    display: none;
+  }
+  .percent {
+    display: none;
+  
+  }
+  
+  .Satisfied {
+    display: none;
+  
+  }
+  .Clients {
+    display: flex;
+    margin-left: 80%;
+    margin-top: 10%;
+  }
+  .line {
+    display: none;
+  }
+
+
+  /* section 2 */
+
+  .myName {
+    font-size: 12px;
+  }
+  .desinger {
+    font-size: 9px;
+  }
+  .abautMe {
+    display: none;
+  }
+ 
+  .hire {
+    font-size: 12px;
+  }
+  
+  .design {
+    display: none;
+  }
+  
+  .progressBar {
+    display: none;
+  }
+  
+  .progress {
+    display: none;
+  }
+  
+  .autoProgressBar {
+    display: none;
+  }
+  .section2Conteiner {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    align-items: center;
+    grid-template-areas:
+      "Additionalიnformation meImage  "
+      "backraund backraund"
+      
+  }
+  
+  .Additionalიnformation {
+    grid-area: Additionalიnformation;
+  }
+  .meImage {
+    grid-area: meImage;
+  }
+  
+  .backraund {
+    grid-area: backraund;
+  }
+  .meImage {
+    width: 90%;
+  }
+  
+  .icon-transition {
+    display: none;
+  }
+  .backraund {
+    background-color: #131a36;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+  
+  .phoneNumberImg {
+    width: 50%;
+  }
+  .phoneNumber {
+    margin: 1%;
+    color: #ffffff;
+    font-size: 7px;
+  }
+  
+/* section 3 */
+
+.service {
+    width: 150px;
+    height: 200px;
+  }
+  
+  .service-back {
+    width: 100%;
+    height: 100%;
+    background-color: #15263e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+    opacity: 0;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+  }
+  .service-hover {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .service-hover:hover .service {
+    opacity: 0;
+  }
+  .service-hover:hover .service-back {
+    opacity: 1;
+    transition: all 0.3s linear;
+  }
+  
+  .service-p{
+      font-size: 10px;
+  }
+  
+  .title {
+    font-size: 15px;
+  }
+  
+  .about-text {
+    text-align: center;
+    font-size: 10px;
+    color: white;
+  }
+  
+  
+
+  
+  /* section 4 */
+
+  .recommendation-section {
+    height: 300px;
+    margin-top:60px;
+}
+.buttonsPosition {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+}
+  .recommendation-position {
+      display: none;
+      position: relative;
+      justify-content: space-between;
+      align-items: center;
+      color: #fafafa;
+      width: 79%;
+  }
+  
+  .recommendation-text {
+    font-size: 10px;
+  }
+  .recommendationImg {
+    border: dotted 2px white;
+    border-radius: 50%;
+    width: 25%;
+  }
+  .profession {
+    font-size: 15px;
+    color: #e93656;
+  }
+  
+  
+  /* section 5 */
+  
+  .latest {
+    
+    font-size: 30px;
+  }
+  .latest-logo{
+    width: 35px;
+  }
+
+  .bar-li {
+    font-size: 15px;
+    
+  }
+  
+  .project-img {
+    width: 100%;
+    object-fit: cover;
+  }
+ 
+  .project:hover .project-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 80%;
+  }
+  
+  .section5dysplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+  }
+  
+
+  
+  /* section 7 */
+  
+  
+  .contact-us{
+      font-size: 30px;
+  }
+  
+  .Lorem-ipsum{
+      font-size: 13px;
+  }
+ 
+  
+  .footer-roca{
+      font-size: 55.42px;
+      color: #FFFFFF;
+  
+  }
+  .footer-span{
+      color: #E93656;
+      font-size: 15px;
+  }
+  
+  .footer-lorem{
+      font-size: 13px;
+  }
+  .reserved{
+      font-size: 12px;
+  }
+  
+  
+
+
+}
